@@ -76,7 +76,7 @@ repos:
           - --disable=MD033
 
   - repo: https://github.com/google/yamlfmt
-    rev: v0.17.0
+    rev: v0.21.0
     hooks:
       - id: yamlfmt
         files: ^ray-operator/config/samples/
