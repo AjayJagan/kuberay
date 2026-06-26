@@ -1,4 +1,4 @@
-FROM rayproject/ray:2.46.0
+FROM rayproject/ray:2.55.1
 
 RUN pip install torch torchvision numpy
 RUN wget https://raw.githubusercontent.com/ray-project/kuberay/master/ray-operator/config/samples/pytorch-mnist/ray_train_pytorch_mnist.py
