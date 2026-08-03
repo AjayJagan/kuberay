@@ -1,6 +1,6 @@
 module github.com/ray-project/kuberay/ray-operator
 
-go 1.24.2
+go 1.25
 
 require (
 	github.com/Masterminds/semver/v3 v3.3.1
@@ -25,7 +25,7 @@ require (
 	k8s.io/code-generator v0.33.1
 	k8s.io/component-base v0.33.1
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/utils v0.0.0-20250502105355-0f33e8f1c979
+	k8s.io/utils v0.0.0-20260707023825-cf1189d6abe3
 	sigs.k8s.io/controller-runtime v0.21.0
 	sigs.k8s.io/structured-merge-diff/v4 v4.7.0
 	sigs.k8s.io/yaml v1.4.0
