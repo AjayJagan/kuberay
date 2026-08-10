@@ -1,6 +1,6 @@
 module github.com/ray-project/kuberay
 
-go 1.24.2
+go 1.25.0
 
 require (
 	github.com/dustinkirkland/golang-petname v0.0.0-20240428194347-eebcea082ee0
@@ -98,7 +98,7 @@ require (
 	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/oauth2 v0.27.0 // indirect
 	golang.org/x/sync v0.12.0 // indirect
-	golang.org/x/sys v0.32.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/term v0.30.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/time v0.10.0 // indirect
