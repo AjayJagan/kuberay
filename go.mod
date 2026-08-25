@@ -1,6 +1,6 @@
 module github.com/ray-project/kuberay
 
-go 1.24.2
+go 1.25.0
 
 require (
 	github.com/dustinkirkland/golang-petname v0.0.0-20240428194347-eebcea082ee0
@@ -55,9 +55,20 @@ require (
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/go-errors/errors v1.4.2 // indirect
 	github.com/go-logr/zapr v1.3.0 // indirect
-	github.com/go-openapi/jsonpointer v0.21.0 // indirect
-	github.com/go-openapi/jsonreference v0.21.0 // indirect
-	github.com/go-openapi/swag v0.23.0 // indirect
+	github.com/go-openapi/jsonpointer v1.0.0 // indirect
+	github.com/go-openapi/jsonreference v0.21.6 // indirect
+	github.com/go-openapi/swag v0.29.1 // indirect
+	github.com/go-openapi/swag/cmdutils v0.29.1 // indirect
+	github.com/go-openapi/swag/conv v0.29.1 // indirect
+	github.com/go-openapi/swag/fileutils v0.29.1 // indirect
+	github.com/go-openapi/swag/jsonutils v0.29.1 // indirect
+	github.com/go-openapi/swag/loading v0.29.1 // indirect
+	github.com/go-openapi/swag/mangling v0.29.1 // indirect
+	github.com/go-openapi/swag/netutils v0.29.1 // indirect
+	github.com/go-openapi/swag/pools v0.29.1 // indirect
+	github.com/go-openapi/swag/stringutils v0.29.1 // indirect
+	github.com/go-openapi/swag/typeutils v0.29.1 // indirect
+	github.com/go-openapi/swag/yamlutils v0.29.1 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/btree v1.1.3 // indirect
@@ -68,10 +79,8 @@ require (
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
-	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
@@ -95,6 +104,7 @@ require (
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/oauth2 v0.27.0 // indirect
 	golang.org/x/sync v0.12.0 // indirect
