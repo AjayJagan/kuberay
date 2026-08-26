@@ -3,7 +3,7 @@ module github.com/ray-project/kuberay
 go 1.24.2
 
 require (
-	github.com/dustinkirkland/golang-petname v0.0.0-20240428194347-eebcea082ee0
+	github.com/dustinkirkland/golang-petname v0.0.0-20260215035315-f0c533e9ce9b
 	github.com/elazarl/go-bindata-assetfs v1.0.1
 	github.com/go-logr/logr v1.4.3
 	github.com/go-logr/zerologr v1.2.3
