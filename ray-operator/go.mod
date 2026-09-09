@@ -4,7 +4,7 @@ go 1.24.2
 
 require (
 	github.com/Masterminds/semver/v3 v3.3.1
-	github.com/go-logr/logr v1.4.3
+	github.com/go-logr/logr v1.4.4
 	github.com/go-logr/zapr v1.3.0
 	github.com/jarcoal/httpmock v1.4.0
 	github.com/onsi/ginkgo/v2 v2.23.4
